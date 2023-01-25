@@ -8,19 +8,41 @@
     <style>
 		body {
 			background-color: #2D2D2D;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%)
 		}
-		
+		.content {
+            text-align: center;
+        }
 		h1 {
 			color: #f7f705;
-			font-size: 30px;
-			font-family: Menlo, Monaco, fixed-width;
 		}
         h1 span {
-            color: blue;
+            color: rgb(3, 150, 248);
+        }
+        h4 span:nth-child(1) {
+            color: white;
+        }
+        h4 span:nth-child(2) {
+            color: rgb(5, 43, 211);
+        }
+        h4 span:nth-child(3) {
+            color: rgb(211, 5, 5);
         }
 	</style>
+
 </head>
 <body>
-    <h1>Hello <span> world! </span> </h1>
+    <div class="content">
+        <h1>HELLO <span> WORLD! </span> </h1>
+        <h4> 
+            <span>AND</span> 
+            <span>FUCK</span> 
+            <span>russia!!!</span> 
+        </h4>
+    </div>
 </body>
 </html>
